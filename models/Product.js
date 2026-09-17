@@ -5,16 +5,16 @@ const productSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, 'Product ka naam zaroori hai'],
+      required: [true, 'Product Name Required'],
       trim: true,
     },
     category: {
       type: String,
-      required: [true, 'Category zaroori hai'],
+      required: [true, 'Category Required'],
     },
     price: {
       type: Number,
-      required: [true, 'Price zaroori hai'],
+      required: [true, 'Price Required'],
     },
     rating: {
       type: Number,
@@ -22,7 +22,7 @@ const productSchema = new mongoose.Schema(
     },
     image: {
       type: String,
-      required: [true, 'Image URL zaroori hai'],
+      required: [true, 'Image URL Required'],
     },
     badge: {
       type: String,
