@@ -34,7 +34,7 @@ const INITIAL_PRODUCTS = [
     category: "Furniture",
     price: 279.0,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1580481077198-c8075fe0494f?w=500&q=80",
+    image: "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=500&q=80",
   },
   {
     name: "Portable Bluetooth Speaker",
